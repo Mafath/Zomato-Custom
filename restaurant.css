@@ -1,0 +1,71 @@
+
+.restaurant__title {
+  font-size: 23px;
+  font-weight: 800;
+  color: #1d3557;
+}
+
+.main__restaurant__div__1 {
+  display: flex;
+  column-gap: 10px;
+  align-items:flex-end;
+  margin-bottom: 9px;
+}
+
+.main__restaurant__div__2 {
+  display: flex;
+  column-gap: 10px;
+  align-items:flex-start;
+}
+
+.restaurant__pic {
+  border-radius: 8px;
+}
+
+#pic1 {
+  width: 150px;
+  height: 80px;
+}
+
+#pic2 {
+  width: 175px;
+  height: 100px;
+  margin-bottom: 0px;
+}
+
+#pic3 {
+  width: 185px;
+  height: 100px;
+}
+
+#pic4 {
+  width: 140px;
+  height: 80px;
+}
+
+
+@media (min-width:768px) {
+  .restaurant__section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  .restaurant__title {
+    font-size: 32px;
+  }
+}
+
+@media (min-width:1024px) {
+
+  .restaurant__section {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  
+  }

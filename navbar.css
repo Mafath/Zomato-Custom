@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+  background-color: #f9fafc;
+  box-shadow: 0 3px 10px 0 rgba(0,0,0,0.2);
+}
+
+.main__logo__div {
+  width: 100px;
+}
+
+.main__logo {
+  width: 100%;
+}
+
+.primary__button {
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 100%);
+  padding: 9px 17px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+
+@media (min-width:1024px) {
+  .primary__button {
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 30px;
+ }
+
+ .navbar {
+    padding: 0 52px;
+ }
+}
